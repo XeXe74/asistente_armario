@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Apuntes del proyecto
+Enunciado del proyecto.pdf
+
 # C extensions
 *.so
 
