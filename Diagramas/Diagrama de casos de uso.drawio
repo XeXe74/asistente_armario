@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Página-1" id="3Kurr3SNIYgAxk2f34Z0">
+    <mxGraphModel dx="588" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DhV-5COs8RsdDwdSa2on-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Usuario&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="40" x="140" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Identificar prenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Pedir recomendación&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Matizar la petición&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Consultar armario&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Mostrar sugerencia&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Dar de alta prenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="330" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Sistema de catalogación&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="40" x="730" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-13" edge="1" parent="1" source="DhV-5COs8RsdDwdSa2on-8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="DhV-5COs8RsdDwdSa2on-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="615" />
+              <mxPoint x="200" y="315" />
+            </Array>
+            <mxPoint x="200" y="620" as="sourcePoint" />
+            <mxPoint x="310" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="470" as="sourcePoint" />
+            <mxPoint x="200" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-15" edge="1" parent="1" source="DhV-5COs8RsdDwdSa2on-8" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="610" as="sourcePoint" />
+            <mxPoint x="720" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhV-5COs8RsdDwdSa2on-21" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=100;height=30;" value="Asistente de vestuario" vertex="1">
+          <mxGeometry height="460" width="500" x="220" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yUTXCQYFJoNImwI5XXfe" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
