@@ -1,0 +1,18 @@
+{
+  "_comentario": "Catálogo de ejemplo escrito a mano. Lo sustituirá el generado por scripts/alta_prendas.py. formalidad: 1 informal, 2 intermedio, 3 formal. imagen: relativa a data/imagenes.",
+  "prendas": [
+    {"id": "sup-01", "zona": "superior", "tipo": "camiseta", "color": "blanco", "formalidad": 1, "imagen": "sup-01.jpg"},
+    {"id": "sup-02", "zona": "superior", "tipo": "camiseta", "color": "negro", "formalidad": 1, "imagen": "sup-02.jpg"},
+    {"id": "sup-03", "zona": "superior", "tipo": "camisa", "color": "blanco", "formalidad": 3, "imagen": "sup-03.jpg"},
+    {"id": "sup-04", "zona": "superior", "tipo": "camisa", "color": "azul", "formalidad": 3, "imagen": "sup-04.jpg"},
+    {"id": "sup-05", "zona": "superior", "tipo": "sudadera", "color": "gris", "formalidad": 1, "imagen": "sup-05.jpg"},
+    {"id": "sup-06", "zona": "superior", "tipo": "jersey", "color": "beige", "formalidad": 2, "imagen": "sup-06.jpg"},
+    {"id": "sup-07", "zona": "superior", "tipo": "polo", "color": "verde", "formalidad": 2, "imagen": "sup-07.jpg"},
+    {"id": "inf-01", "zona": "inferior", "tipo": "vaquero", "color": "azul", "formalidad": 2, "imagen": "inf-01.jpg"},
+    {"id": "inf-02", "zona": "inferior", "tipo": "chino", "color": "beige", "formalidad": 2, "imagen": "inf-02.jpg"},
+    {"id": "inf-03", "zona": "inferior", "tipo": "pantalon de traje", "color": "negro", "formalidad": 3, "imagen": "inf-03.jpg"},
+    {"id": "inf-04", "zona": "inferior", "tipo": "chandal", "color": "gris", "formalidad": 1, "imagen": "inf-04.jpg"},
+    {"id": "inf-05", "zona": "inferior", "tipo": "pantalon corto", "color": "marino", "formalidad": 1, "imagen": "inf-05.jpg"},
+    {"id": "inf-06", "zona": "inferior", "tipo": "falda", "color": "negro", "formalidad": 2, "imagen": "inf-06.jpg"}
+  ]
+}
