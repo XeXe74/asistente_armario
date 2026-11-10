@@ -1,0 +1,35 @@
+# Configuración del asistente de armario.
+# Las rutas son relativas a la carpeta del proyecto.
+
+log_nivel: WARNING          # DEBUG | INFO | WARNING (INFO muestra intenciones y decisiones de fusión)
+
+catalogo:
+  ruta: data/catalogo.json
+  carpeta_imagenes: data/imagenes
+
+vision:
+  modo: simulada            # simulada | yolo_clip (pendiente)
+  camara: 0                 # índice de la webcam para OpenCV
+  intentos_captura: 5       # consultas a la visión antes de preguntar al usuario
+  espera_captura_s: 0.5
+  # Observación fija que devuelve la visión simulada.
+  # Pon confianza < umbral_confirmacion para probar la rama de confirmación,
+  # o tipo: null para simular que no se detecta ninguna prenda.
+  simulada:
+    zona: superior
+    tipo: camiseta
+    color: rojo
+    confianza: 0.9
+
+voz:
+  modo: teclado             # teclado (simulada) | whisper (pendiente)
+  interprete: reglas        # reglas | llm (pendiente, Ollama)
+  max_fallos: 2             # intentos fallidos antes de pasar al teclado
+
+fusion:
+  umbral_confirmacion: 0.6  # visión por debajo -> se pide confirmación
+  umbral_vision_gana: 0.85  # visión por encima -> gana si la voz la contradice
+
+salida:
+  tts: true                 # leer en voz alta las respuestas
+  velocidad_tts: 180        # palabras por minuto aprox.

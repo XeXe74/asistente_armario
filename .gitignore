@@ -6,6 +6,11 @@ __pycache__/
 # Apuntes del proyecto
 Enunciado del proyecto.pdf
 
+# Pesos de modelos (se descargan, no se versionan)
+pesos/
+*.pt
+*.onnx
+
 # C extensions
 *.so
 

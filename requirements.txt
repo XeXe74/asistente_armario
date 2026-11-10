@@ -1,0 +1,20 @@
+# Probado con Python 3.14.0 en Windows 11.
+# Dependencias directas con versión fijada (las transitivas las resuelve pip).
+
+# Núcleo y salida (usadas ya por el esqueleto)
+PyYAML==6.0.3
+pyttsx3==2.99
+
+# Visión (YOLO DeepFashion2 + CLIP + color)
+numpy==2.5.4
+opencv-python==5.0.0.93
+pillow==13.0.0
+torch==2.14.1
+torchvision==0.29.1
+ultralytics==8.4.191
+open_clip_torch==3.3.0
+
+# Voz (ASR local + LLM local)
+faster-whisper==1.2.1
+sounddevice==0.5.6
+ollama==0.6.3
